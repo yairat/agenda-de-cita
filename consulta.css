@@ -1,0 +1,170 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.imagen {
+    position: absolute;
+    width: 135px;
+    height: 131px;
+    left: 17px;
+    top: 12px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAflBMVEX///8AAADl5eUlJSWqqqqUlJRzc3MNDQ339/dCQkLGxsby8vLo6OgEBAQpKSk5OTkdHR1mZmbQ0NDf399HR0d6enouLi6fn58TExNRUVG4uLj09PSQkJAzMzNra2uampq8vLyGhoaLi4sZGRlZWVmvr6/Ly8s9PT3Y2NhOTk69SjnLAAAE8UlEQVR4nO2aDXOiMBCGQUBQCAUpoqICIqj//w9eNpRk+fAqrcJ4l3fmZi5rFh4l2X2jVRQpKSkpKSkpKSkpKSmpt9F17j+s8Pr8+9sLdYBu9tMBZtoQAG32EgDt4yFprwIgkWW3FcdxJ3R6GYDeDV93TidmjAhwdck5nhJAJ6rXudd4ALPlnKibpNgFkwDYmWsSuuUIIYdG4RkJwDoSvu3N5QQAhUlvvKEfQO5558ZWGAfA2qqqV+yJmi+DoLkRxgGwD6qasV0QtKeOBxBOCWCdVTWPTvQRpO1aONIi3MEiNGERun6z/Y+1DUOxDQ+rCQCUODpUhYj++8QGZLxS7JT0U8gjuhrMdBKAr2Y0c1XVmBIAduRpCgDqfhIKUBpm86WxAPTL4eDRNajRvajhajQSgH0RJtiM8Cu/BbB6FXTqwLm+PXF1qw0Q9F/lgdvb4aJXF7P9CGZ6kvjUEZ12rbdLAcxL/1XC7w8s0Obv6M4u6GtG99SoF/36S/Zm2Zld5s0iyJQOeg89ABt/3qew6HmEadT5ABRL782f+5sHAV6wh5junG3uAYhj2Ncbj9sBcRqrxiKjtmhxIzAMoLzxw+aNNdvowgM+WBArFMfRDJAcn48XBbtWIlKO9lCAM1o6R7j8obWUVhu0PAHREP5APQCi46KU3UAA6xMBbK3W9wNQ+JZorbNzQYgmsPcQeE3mwQCXPWgtAHyDjrOcA5hzGjDmJgfIMzrB2AoAUqVsfgZwZIEtB6iynTUHYJ88PIsaYO3gpwgAO6V6FpMBFP89wK8egR/TBho3AGhghgBKaLElAphBYN/4BEQrHwzgsQ66Ebtg/dWXawDyAYEPwgGqLqyhbbhGrfy96oByRJfLlOY3pSY82Ssi0uBspiMi1qPtjybiMADH4G00YUtrlfFA5cDSkDdqZhRi0YWz6rBY8hTWygd2w+dLAgwEsJ1aX36Dj53KkFjtQNzOaKUMA0gvbq0LW2PGmge2MCE+8rE7B8cTbPn4UB1UTiIFvkcbBrBF29BXqgqMN3XXkOxRBqvJuHRAU3ivQgQAiwj0IQCOehTpiScMSQaBTBgSL4HAGfWCOQSM/E274T/hByYH+J0hceiZxrkJgAgOOVdXACwhsBQA7hUCJwSgs5QfGpLNAWSKXaDBeI0MiQsBFxmSNQQ8tA2rFPKOhgR9EUv2dBzfUOFL4fLo4OXCGX2HSuMWajP2MPlgQ2LrSa2C9ZYg4oGUNZ+SjxO2GK2Uj6Oqn15FylIakjcEcIJa1S8i1owHKr8R83FQGRKbj2dWX8owgGLt1Vqn8EKm8cACFr195mPPh+tfF3ys7dn9QzHjMxhaB7AhOSutrzvgMiU2JCUQooznGBLChAoRD9SFqA7wQlQHeCGqAz+qhLcd6CJ6QZjSsa4JQ2LQQGoIQ6LpdEJ6RL0gYynem3bDf8IPTA7wO0MyAyFDkjh0vHLvA7grOsHJEEDEUn5oSEwNhAxJzgLkPgBhEzZoG9YpvzMk5zuGpAPwTEOSmaSWmSjwExEfE2/ZB5DmYoYPzSC+oZTVUIA41Wul1ZftBQ9A4e0CKCWf8PXXTSgFZj65HXcBvtPjACtn9q2cggKkdKKTUoDikYzVowDVWv5O0Gk89h+6LbyHUsgjAAn62eH5qirjX1V6KnmdtNW3AGgtv0AP3F9KSkpKSkrqv9MfG4ybTQO8q34AAAAASUVORK5CYII=");
+}
+
+.barra {
+    position: absolute;
+    width: 1270px;
+    height: 85px;
+    left: 152px;
+    top: 24px;
+    background: #000000;
+}
+
+.Inicio {
+    position: absolute;
+    width: 200px;
+    height: 44px;
+    left: 600px;
+    top: 44px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Inicio:hover {
+    background-color: black;
+    color: #FFFFFF;
+    border-style: double;
+}
+
+.Registro {
+    position: absolute;
+    width: 200px;
+    height: 44px;
+    left: 830px;
+    top: 44px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Registro:hover {
+    background-color: black;
+    color: #FFFFFF;
+    border-style: double;
+}
+
+.msm {
+    position: absolute;
+    width: 200px;
+    height: 44px;
+    left: 1060px;
+    top: 44px;
+    border-radius: 10px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.msm:hover {
+    background-color: black;
+    color: #FFFFFF;
+    border-style: double;
+}
+
+.medio {
+    position: absolute;
+    width: 852px;
+    height: 480px;
+    left: 250px;
+    top: 156px;
+    background-image: url("https://ak.picdn.net/shutterstock/videos/15422770/thumb/1.jpg");
+}
+
+body {
+    font-family: Arial;
+    padding: 50px;
+}
+
+.mesm {
+    width: 500px;
+    height: 400px;
+    background-color: rgba(176, 182, 182, 0.507);
+    align-items: center;
+    top: 300px;
+    position: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    border-style: double;
+}
+
+.paciente {
+    width: 200px;
+    height: 20px;
+    margin-right: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.cita {
+    width: 200px;
+    height: 20px;
+    margin-right: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.user {
+    width: 200px;
+    height: 20px;
+    margin-right: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.email {
+    width: 200px;
+    height: 20px;
+    margin-right: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.number {
+    width: 200px;
+    height: 20px;
+    margin-right: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #000000;
+}
+
+.btn {
+    color: #FFFFFF;
+    width: 80px;
+    height: 50px;
+    margin-right: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(155, 155, 155);
+}
+
+.abajo {
+    background-color: #000000;
+    width: 1350px;
+    height: 100px;
+    position: unset;
+    margin-top: 600px;
+}
